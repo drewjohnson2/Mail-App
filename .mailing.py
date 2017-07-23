@@ -42,7 +42,7 @@ mail.ehlo()
 
 mail.starttls()
 
-mail.login('drew.m.johnson2@gmail.com', 'Your Email')    
+mail.login('drew.m.johnson2@gmail.com', 'Your Email Password')    
 
 mail.sendmail('drew.m.johnson2@gmail.com', recipient,
         'Subject:' + subject + ' \n' + body)
